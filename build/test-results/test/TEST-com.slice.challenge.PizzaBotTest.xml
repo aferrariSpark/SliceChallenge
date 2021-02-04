@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.slice.challenge.PizzaBotTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-02-04T18:15:07" hostname="augusto-HP-250-G5-Notebook-PC" time="82.338">
+  <properties/>
+  <testcase name="deliver()" classname="com.slice.challenge.PizzaBotTest" time="82.338">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
