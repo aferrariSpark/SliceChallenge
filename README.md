@@ -1,8 +1,11 @@
 Instructions to run:
 
 01.- Make sure Gradle 5.2.1 is installed.
+
 02.- Decompress the project.
+
 03.- Open a terminal and navigate to the project root folder.
+
 04.- Build the project by executing the following command (Ubuntu):
 
 		./gradlew assemble
@@ -16,6 +19,8 @@ Instructions to run:
 		./gradlew test
 
 Notes:
-* If the board size input does not match the proper format, an exception will be throwed, an error message will be printed in console and the application will end.
-* If any of the instruction inputs does not match the proper format, and exception will be throwed, an error message will be printed in console and the application will end.
-* If any offset exceeds the board
+* If the board size input does not match the proper format, an error message will be printed in console and the application will end.
+
+* If any of the instruction inputs does not match the proper format, an error message will be printed in console and the application will end.
+
+* If any offset exceeds the board dimensions, an error message will be printed in console and the application will end.
