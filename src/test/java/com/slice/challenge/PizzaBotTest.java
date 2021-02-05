@@ -5,9 +5,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class PizzaBotTest {
 
@@ -20,7 +17,7 @@ class PizzaBotTest {
 
     @Test
     void deliver() {
-        List<Pair> instructions = new ArrayList();
+        ArrayList<Pair> instructions = new ArrayList<>();
         instructions.add(new Pair(0,0));
         instructions.add(new Pair(1,3));
         instructions.add(new Pair(4,4));
